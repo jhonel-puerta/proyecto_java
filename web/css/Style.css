@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial';
+}
+form{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
+.header-home{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #212F3D;
+    color: white;
+}
+.logo{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 30px;
+    color: red;
+}
+.listar-alumnos{
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: rgba(46, 204, 113,50);
+    border-radius: 5px;
+}
+.cerrar-sesion{
+    color: #EBEDEF;
+    text-decoration: none;
+    margin-left: 5px;
+}
+nav{
+    margin-right: 30px;
+}
+.btn-agregar{
+    text-decoration: none;
+    background-color: #28B463;
+    padding: 5px 10px;
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    transition-duration: .4s;
+}
+.btn-agregar:hover{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+}
+.cont{
+    width: 90%;
+    margin: auto;
+}
